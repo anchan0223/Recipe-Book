@@ -1,0 +1,92 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: rgb(68, 6, 83) 1px 0 10px;
+}
+
+
+/* Navigation Menu */
+nav {
+    background-image: url('tab.jpg');
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav ul li a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Zebra-striped table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffdfba;
+}
+
+table tr:nth-child(even) {
+    background-color: #e2b2e2;
+}
+
+table td {
+    padding: 8px;
+    text-align: left;
+    
+}
+
+
+.GSU img {
+    border-radius: 50%;
+}
+
+.GSU {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#quote {
+    background-color: #90b0e7;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+}
